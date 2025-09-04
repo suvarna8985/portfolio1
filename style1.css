@@ -1,0 +1,41 @@
+/* General section spacing */
+section {
+  padding: 2rem;
+}
+
+/* Skills section styling */
+#skills, #languages, #education, #hobbies, #projects, #about, #contact {
+  background-color: #e0e0e0;
+}
+
+.skills-list,
+.languages-list,
+.hobbies-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skills-list li,
+.languages-list li,
+.hobbies-list li {
+  background-color: #e0e0e0;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* Header and Footer */
+header {
+  background-color: plum;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
